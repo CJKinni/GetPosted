@@ -24,8 +24,8 @@ get '/' do
   submitted to, but you need to have a javascript enabled browser to use the service.<br>
   <br>
   <b>Note</b>:  Make sure not to use this service for sensitive information.<br>
-  If you're not comfortable with anyone seeing what you're sending, don't send it<br>
-  via a website you've never heard of.<br>
+  If you're not comfortable with anyone seeing what you're sending,<br>
+  don't send it via a website you found out about 15 minutes ago.<br>
   <br>
   Spec:<br>
   <br>
