@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  send_file "GET POSTed<br>
+  "GET POSTed<br>
 <br>
 GET POSTed is a way of easily making POST requests via a url.
 <br>
