@@ -36,9 +36,9 @@ get '/' do
   <br>
   1. Create a regular link to http://getposted.io/post?<br>
   2. Determine the url of the form you're submitting to.<br>
-  3. Add that to the link, with the name 'action':
-  --- e.g. http://getposted.io/post?action=http://httpbin.org/post
-  4. Add key/value pairs seperated by '&'
+  3. Add that to the link, with the name 'action':<br>
+  --- e.g. http://getposted.io/post?action=http://httpbin.org/post<br>
+  4. Add key/value pairs seperated by '&'<br>
   --- e.g. <a href=\"http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2\">
 http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2</a><br>
   5. That's it!  Your URL will now redirect and make a POST request.
