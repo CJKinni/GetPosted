@@ -1,3 +1,5 @@
+require 'sinatra'
+
 get '/getposted' do
 
   form = "<form action=\"#{params[:action].to_s}\" method=\"post\">"
