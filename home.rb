@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "GET POSTed
+  send_file "GET POSTed
   
   GET POSTed is a way of easily making POST requests via a url.
   
@@ -17,6 +17,6 @@ get '/' do
   
   If you are a for-profit organization using this service, please contact GETPOSTed@cjkinni.com
   for licensing information.
-  
-  Make requests to /post?action=url&param1=value1&param2=value2"
+
+  Make requests to /getposted?action=url&param1=value1&param2=value2"
 end
