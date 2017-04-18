@@ -8,7 +8,7 @@ get '/' do
   <title>GET POSTed</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   </head>
-<body>
+<body style=\"font-family: monospace;\">
   GET POSTed<br>
   <br>
   GET POSTed is a way of easily making POST requests via a url.
