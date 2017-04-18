@@ -27,12 +27,21 @@ get '/' do
   If you're not comfortable with anyone seeing what you're sending, don't send it<br>
   via a website you've never heard of.<br>
   <br>
-  Make requests to /post?action=url&param1=value1&param2=value2<br>
+  Spec:<br>
   <br>
-  Example:<br>
-  <a href=\"http://getposted.io/post?action=http://httpbin.org/post&key=value&is_secure=no\">
-  http://getposted.io/post?action=http://httpbin.org/post&key=value&is_secure=no
-  </a>
+  Make requests to getposted.io/post?action=url&param1=value1&param2=value2<br>
+  You can use up to 100 params.  If you have a good reason to use more, <a href=\"http://twitter.com/cjkinni\">get in touch</a>.<br>
+  <br>
+  Step by Step:<br>
+  <br>
+  1. Create a regular link to http://getposted.io/post?<br>
+  2. Determine the url of the form you're submitting to.<br>
+  3. Add that to the link, with the name 'action':
+  --- e.g. http://getposted.io/post?action=http://httpbin.org/post
+  4. Add key/value pairs seperated by '&'
+  --- e.g. <a href=\"http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2\">
+http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2</a><br>
+  5. That's it!  Your URL will now redirect and make a POST request.
 </body>
 </html>"
 end
