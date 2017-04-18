@@ -19,18 +19,19 @@ get '/' do
   Instead, you could include an email to a GETPOSTed url that redirects to submit a<br>
   completed form.<br>
   <br>
+  This service works by providing a hidden form that is built on page-load and uses javascript<br>
+  to 'click' the form submission.  This means cookies will work correctly for the site you've<br> 
+  submitted to, but you need to have a javascript enabled browser to use the service.<br>
+  <br>
   Note:  Make sure not to use this service for sensitive information.<br>
   If you're not comfortable with anyone seeing what you're sending, don't send it<br>
   via a website you've never heard of.<br>
   <br>
-  If you are a for-profit organization using this service, please contact GETPOSTed@cjkinni.com<br>
-  for licensing information.<br>
-  <br>
   Make requests to /post?action=url&param1=value1&param2=value2<br>
   <br>
   Example:<br>
-  <a href=\"http://getposted.io/getposted?action=http://httpbin.org/post&key=value&is_secure=no\">
-  http://getposted.io/getposted?action=http://httpbin.org/post&key=value&is_secure=no
+  <a href=\"http://getposted.io/post?action=http://httpbin.org/post&key=value&is_secure=no\">
+  http://getposted.io/post?action=http://httpbin.org/post&key=value&is_secure=no
   </a>
 </body>
 </html>"
