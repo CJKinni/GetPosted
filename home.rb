@@ -41,7 +41,9 @@ get '/' do
   4. Add key/value pairs seperated by '&'<br>
   --- e.g. <a href=\"http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2\">
 http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2</a><br>
-  5. That's it!  Your URL will now redirect and make a POST request.
+  5. That's it!  Your URL will now redirect and make a POST request.<br>
+<br>
+A project by <a href=\"http://twitter.com/cjkinni\">@CJKinni</a>
 </body>
 </html>"
 end
