@@ -11,7 +11,7 @@ get '/' do
 <body style=\"font-family: monospace;\">
   GET POSTed<br>
   <br>
-  GET POSTed is a way of easily making POST requests via a url.
+  GET POSTed is a way of easily making POST requests via a GET request.
   <br>
   This is an easy way to automatically fill out a form that only accepts POST requests.<br>
   If you wanted to email someone a link to sign into a website with a guest account,<br>
