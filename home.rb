@@ -29,7 +29,7 @@ get '/' do
   <br>
   Spec:<br>
   <br>
-  Make requests to getposted.io/post?action=url&param1=value1&param2=value2<br>
+  Make requests to getposted.io/post?action=url&amp;param1=value1&amp;param2=value2<br>
   You can use up to 100 params.  If you have a good reason to use more, <a href=\"http://twitter.com/cjkinni\">get in touch</a>.<br>
   <br>
   Step by Step:<br>
