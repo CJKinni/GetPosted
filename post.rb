@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/getposted' do
+get '/post' do
 
   form = "<form action=\"#{params[:action].to_s}\" method=\"post\">"
   params.delete(:action)
