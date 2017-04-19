@@ -13,6 +13,8 @@ get '/' do
   <br>
   getposted.io provides an API that helps you make POST requests via a simple url.<br>
   <br>
+  Make requests to getposted.io/post?action=url&amp;param1=value1&amp;param2=value2<br>
+  <br>
   This is an easy way to fill out a form that only accepts POST requests via a link.<br>
   Imagine you want to email someone a link to sign into a website with a guest account,<br>
   but you don't want to make them type the username and password into the login form themself.<br>
@@ -28,11 +30,6 @@ get '/' do
   <b>Note</b>:  Do not use this service for sensitive information.<br>
   If you're not comfortable with anyone seeing what you're sending,<br>
   don't send it via a website you found out about 15 minutes ago.<br>
-  <br>
-  Spec:<br>
-  <br>
-  Make requests to getposted.io/post?action=url&amp;param1=value1&amp;param2=value2<br>
-  You can use up to 100 params.  If you have a good reason to use more, <a href=\"http://twitter.com/cjkinni\">get in touch</a>.<br>
   <br>
   Step by Step:<br>
   <br>
