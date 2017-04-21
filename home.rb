@@ -31,6 +31,10 @@ get '/' do
   If you're not comfortable with anyone seeing what you're sending,<br>
   don't send it via a website you found out about 15 minutes ago.<br>
   <br>
+  Try signing up for my every-couple-month newsletter via getposted:<br>
+  http://getposted.io/post?action=https://tinyletter.com/cjkinni&email=YOUR_EMAIL_ADDRESS_HERE<br>
+  I send out a post every few months with a little thing I've made recently, like this site!<br>
+  <br>
   Step by Step:<br>
   <br>
   1. Create a regular link to http://getposted.io/post?<br>
@@ -42,10 +46,6 @@ get '/' do
   --- e.g. <a href=\"http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2\">
 http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2</a><br>
   5. That's it!  Your URL will now redirect and make a POST request.<br>
-<br>
-Try signing up for my every-couple-month newsletter via getposted:<br>
-http://getposted.io/post?action=https://tinyletter.com/cjkinni&email=YOUR_EMAIL_ADDRESS_HERE<br>
-I send out a post every few months with a little thing I've made recently, like this site!<br>
 <br>
 A project by <a href=\"http://twitter.com/cjkinni\">@CJKinni</a><br>
 <br>
