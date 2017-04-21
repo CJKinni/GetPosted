@@ -50,7 +50,9 @@ I send out a post every few months with a little thing I've made recently, like 
 A project by <a href=\"http://twitter.com/cjkinni\">@CJKinni</a><br>
 <br>
 Support via Bitcoin: 13PkMB9vGgtGabmxPrLpL5itPyJzuFL8tR<br>
-<a href=\"https://github.com/CJKinni/GetPosted\">View on GitHub</a>
+<a href=\"https://github.com/CJKinni/GetPosted\">View on GitHub</a><br>
+<br>
+If you are experiencing abuse caused using this tool, contact abuse@cjkinni.com<br> 
 </body>
 </html>"
 end
