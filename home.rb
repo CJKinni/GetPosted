@@ -45,7 +45,8 @@ http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2</a
 <br>
 A project by <a href=\"http://twitter.com/cjkinni\">@CJKinni</a><br>
 <br>
-Support via Bitcoin: 13PkMB9vGgtGabmxPrLpL5itPyJzuFL8tR
+Support via Bitcoin: 13PkMB9vGgtGabmxPrLpL5itPyJzuFL8tR<br>
+<a href="https://github.com/CJKinni/GetPosted">View on GitHub</a>
 </body>
 </html>"
 end
