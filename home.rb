@@ -24,8 +24,8 @@ get '/' do
   browser to submit a completed form via POST.<br>
   <br>
   This service works by providing a hidden form that is built on page-load and uses javascript<br>
-  to 'click' the form submission.  This means cookies will work correctly for the site you've<br> 
-  submitted to, but you need to have a javascript enabled browser to use the service.<br>
+  to 'click' the form submission.  This means you need to have a javascript enabled browser to <br>
+  use the service.<br>
   <br>
   <b>Note</b>:  Do not use this service for sensitive information.<br>
   If you're not comfortable with anyone seeing what you're sending,<br>
