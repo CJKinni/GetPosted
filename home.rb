@@ -43,6 +43,10 @@ get '/' do
 http://getposted.io/post?action=http://httpbin.org/post&key=value&key2=value2</a><br>
   5. That's it!  Your URL will now redirect and make a POST request.<br>
 <br>
+Try signing up for my every-couple-month newsletter via getposted:<br>
+http://getposted.io/post?action=https://tinyletter.com/cjkinni&email=YOUR_EMAIL_ADDRESS_HERE<br>
+I send out a post every few months with a little thing I've made recently, like this site!<br>
+<br>
 A project by <a href=\"http://twitter.com/cjkinni\">@CJKinni</a><br>
 <br>
 Support via Bitcoin: 13PkMB9vGgtGabmxPrLpL5itPyJzuFL8tR<br>
