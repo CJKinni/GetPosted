@@ -15,6 +15,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  sanitize
   sinatra
 
 BUNDLED WITH
