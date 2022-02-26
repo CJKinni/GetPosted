@@ -2,11 +2,13 @@ GEM
   remote: https://rubygems.org/
   specs:
     crass (1.0.2)
-    mini_portile2 (2.1.0)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogumbo (1.4.10)
       nokogiri
+    racc (1.6.0)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
